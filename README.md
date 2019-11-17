@@ -8,7 +8,7 @@
 
 ### Cart Design:
 
-![alt text](https://github.com/dineshk033/hackathon-foodapp/blob/master/public/1.PNG)
+![alt text](https://github.com/dineshk033/hackathon-foodapp/blob/master/public/5.PNG)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
