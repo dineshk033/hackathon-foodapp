@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,4 +13,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.nav{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  background-color:#FFDE03;
+  padding:14px 18px;
+}
+.searchbar {
+  margin:2px;
+  width: 250px;
+  padding-top:12px;
+  border:none;
+  background: #FFDE03;
+  text-align: center;
+}
+.icon{
+  margin: 4px;  
+  color:white;  
+}
+.title{
+  font-weight: bold;
+  margin:0 4px;
+  color: white;
+}
+.col-75{
+  width: 75%;
+  padding: 14px;
+  float: left;
+}
+.col-25{
+  float: right;
+  width: 25%;
+  padding: 14px;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 70px;
+  right:0;
+}
+
+@media only screen and (max-width: 769px) {
+  .col-25,.col-75{
+    clear: both;
+    width: 100%;
+    padding:14px;
+  }  
+}
+
+.cart-card {
+  width:100%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
 }
