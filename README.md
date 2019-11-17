@@ -1,3 +1,16 @@
+## Hackathon Food App
+
+### `Designed using React Hooks and Redux Concept`
+
+### HomePage Design Frame:
+
+![alt text](https://github.com/dineshk033/hackathon-foodapp/blob/master/public/1.PNG)
+
+### Cart Design:
+
+![alt text](https://github.com/dineshk033/hackathon-foodapp/blob/master/public/1.PNG)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
